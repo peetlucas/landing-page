@@ -28,18 +28,19 @@
         id="header-img"
       />
       <nav id="nav-bar">
-        <li>Features</li>
-        <li>How It Works</li>
-        <li>Pricing</li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#video" class="nav-link">How It Works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
       </nav>
     </header>
     <main>
       <div id="top">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <form action="">
+        <form action="" id="form">
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Enter your email address"
           /><br />
           <input type="submit" id="submit" value="GET STARTED" />
@@ -78,7 +79,7 @@
         </div>
       </div>
       <div id="youtube">
-        <iframe
+        <iframe id="video"
           width="600"
           height="350"
           src="https://www.youtube.com/embed/y8Yv4pnO7qc"

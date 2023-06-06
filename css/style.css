@@ -3,12 +3,19 @@ body{
     font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 #header{
     display: flex;
     padding-top: 20px;
     padding-right: 40px;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eee;
+   
 }
 #header-img{
     width: 300px;
@@ -16,6 +23,7 @@ body{
 #nav-bar {
     text-align: right;
     width: 90%;
+    padding-right: 30px;
 }
 #nav-bar li{
     text-decoration: none;
@@ -24,6 +32,7 @@ body{
 }
 #top{
     text-align: center;
+    padding-top: 50px;
 }
 input{
     margin: 10px 0;
@@ -86,8 +95,12 @@ input{
     line-height: 3;
     font-weight: bold;
 }
-
 #youtube{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#video{
     margin-top: 50px;
     text-align: center;
 }
@@ -97,7 +110,7 @@ footer{
     height: 100px;
     padding-top:20px;
     padding-right: 10px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -105,5 +118,12 @@ footer ul li{
     list-style: none;  
     display: inline-block; 
     font-weight: bold;
+    padding-left: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    #pricing{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+  }
