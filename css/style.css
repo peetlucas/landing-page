@@ -1,6 +1,9 @@
-
-
-
+body{
+    background-color: #eee;
+}
+#submit{
+    background-color: #f1c40f;
+}
 
 
 #pricing > div{
