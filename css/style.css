@@ -37,6 +37,9 @@ input{
     font-weight: bold;
 }
 
+#grid{    
+    flex-direction:row;
+}
 
 
 #pricing {
@@ -67,3 +70,14 @@ input{
 #youtube{
     text-align: center;
 }
+footer{
+    text-align: right;
+    background-color: #ddd;
+}
+
+footer ul li{
+    list-style: none;  
+    display: inline-block; 
+    font-weight: bold;
+}
+
